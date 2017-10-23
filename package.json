@@ -10,6 +10,8 @@
   "author": "nilesh",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "instagram-node": "^0.5.8"
   }
 }

@@ -1,11 +1,18 @@
-var express = require("express");
+var express = require('express');
 var app = express();
-var path = require('path');
+var ig = require('instagram-node').instagram();
 
-// viewed at http://localhost:8080
+
+// tell node where to look for site resources
+app.use(express.static(__dirname + '/public'));
+// set the view engine to ejs
+app.set('view engine', 'ejs');
+
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+
+res.render('pages/index');
 });
+// START THE SERVER
 
 app.listen(8080);
-console.log("statrted server");
+console.log('App started! Look at http://localhost:8080');

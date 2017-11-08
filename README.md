@@ -1,4 +1,4 @@
-# nodeApp
+# nodeApp [![Build Status](https://travis-ci.org/nileshgulia1/react-fullstkapp.svg?branch=master)](https://travis-ci.org/nileshgulia1/react-fullstkapp)
 Basic Node Application<br>
 <code>git clone</code><br>
 <code>npm start</code><br>
